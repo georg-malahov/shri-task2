@@ -1,0 +1,3 @@
+[submodule "common.blocks/code"]
+	path = common.blocks/code
+	url = git@gist.github.com:aed2a98ed67097d8316b.git
