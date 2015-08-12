@@ -1,3 +1,6 @@
 [submodule "common.blocks/code"]
 	path = common.blocks/code
 	url = git@gist.github.com:aed2a98ed67097d8316b.git
+[submodule "common.blocks/shri"]
+	path = common.blocks/shri
+	url = git@gist.github.com:aed2a98ed67097d8316b.git
