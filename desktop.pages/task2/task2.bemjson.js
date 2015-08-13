@@ -6,7 +6,6 @@ module.exports = {
 			{ elem: 'css', url: 'task2.css' }
 	],
 	scripts: [
-			{ elem: 'js', url: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js' },
 			{ elem: 'js', url: 'task2.js' }
 	],
 	content: [
@@ -16,7 +15,7 @@ module.exports = {
 				{
 					elem: 'title',
 					tag: 'h1',
-					content: 'Суммарная популяция в Африке'
+					content: 'Суммарная популяция'
 				},
 				{
 					elem: 'description',
@@ -34,7 +33,26 @@ module.exports = {
 			content: [
 				{
 					block: 'console',
-					content: "Здесь будет отображаться вывод консоли!"
+					content: [
+						{
+							elem: 'text',
+							content: "Откройте консоль, чтобы увидеть результат работы."
+						},
+						{
+							block: 'button',
+							mix: [ { block: 'console', elem: 'button' } ],
+							mods : { theme : 'islands', size : 'm', view: 'action' },
+							text: 'Рассчитать популяцию!',
+							attrs: { onclick: 'getPopulations()' }
+						}
+					]
+				},
+				{
+					block: 'documentation',
+					tag: 'iframe',
+					attrs: {
+						src: '/common.blocks/documentation/__shri/global.html'
+					}
 				}
 			]
 		}
