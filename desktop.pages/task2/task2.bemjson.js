@@ -1,7 +1,7 @@
 //noinspection BadExpressionStatementJS
 module.exports = {
 	block: 'page',
-	title: 'Онлайн-табло авиарейсов',
+	title: 'Суммарная популяция',
 	styles: [
 			{ elem: 'css', url: 'task2.css' }
 	],
