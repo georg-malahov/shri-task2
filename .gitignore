@@ -11,10 +11,11 @@ node_modules
 libs
 
 *.pages/*/*
-!*.pages/.bem/*
-!*.pages/*/blocks
-!*.pages/*/*.bemjson.js
-*.pages/*/_*.bemjson.js
+*.blocks/*/*
+
+.bowerrc
+bower.json
+package.json
 
 /coverage
 /coverage.json
