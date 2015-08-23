@@ -1,6 +1,6 @@
 ({
-	shouldDeps: [
-		{ elem: 'inner' },
-		{ block: 'shri' },
-	]
+    shouldDeps: [
+        {elem: 'inner'},
+        {block: 'shri'},
+    ]
 })
